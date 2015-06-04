@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MoochCtl">
+
+    <TextView android:text="@string/explain_text" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Explain" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/current_mac"
+        android:id="@+id/lblMAC"
+        android:layout_alignBaseline="@+id/dspmac"
+        android:layout_alignBottom="@+id/dspmac"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/current_email"
+        android:id="@+id/lblemail"
+        android:layout_alignBaseline="@+id/dspemail"
+        android:layout_alignBottom="@+id/dspemail"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/current_zip"
+        android:id="@+id/lblZIP"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dspmac"
+        android:layout_below="@+id/Explain"
+        android:layout_toRightOf="@+id/lblMAC"
+        android:layout_toEndOf="@+id/lblMAC" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dspemail"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/rndmac"
+        android:layout_alignRight="@+id/dspmac"
+        android:layout_toRightOf="@+id/lblemail"
+        android:layout_toEndOf="@+id/lblemail" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dspzip"
+        android:layout_below="@+id/rndemail"
+        android:layout_toRightOf="@+id/lblZIP"
+        android:layout_toEndOf="@+id/lblZIP" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/random_mac"
+        android:id="@+id/rndmac"
+        android:layout_below="@+id/dspmac"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:checked="true"
+        android:clickable="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/random_email"
+        android:id="@+id/rndemail"
+        android:layout_below="@+id/dspemail"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:checked="true"
+        android:clickable="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/random_zip"
+        android:id="@+id/rndzip"
+        android:layout_below="@+id/dspzip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:checked="true"
+        android:clickable="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/action_button"
+        android:id="@+id/buttonmch"
+        android:layout_below="@+id/rndzip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

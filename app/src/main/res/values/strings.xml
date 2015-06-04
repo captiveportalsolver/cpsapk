@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MoochNet</string>
+
+    <string name="explain_text">Welcome to Moochnet. This application generates device
+        characteristics in order to log in to public wi-fi hotspots relatively
+        safely and anonymously by randomizing your MAC address and keeping other
+        user characteristics private when you log in. Just connect to the public
+        hotspot and hit the button for noticeably improved hotspot safety, security,
+        and privacy.</string>
+    <string name="current_mac">Current MAC Address:</string>
+    <string name="current_email">Current e-mail Address:</string>
+    <string name="current_zip">Current Zip Code:</string>
+    <string name="random_mac">Randomize MAC?</string>
+    <string name="random_email">Randomize Email?</string>
+    <string name="random_zip">Randomize ZIP?</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_button">Log In to Hotspot</string>
+</resources>

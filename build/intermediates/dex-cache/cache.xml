@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/user/AndroidStudioProjects/MoochNet/app/libs/RootShell.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b1426f8aadddabfa11271c83e17f06afdaeb4ff3">
+        <dex dex="/home/user/AndroidStudioProjects/MoochNet/app/build/intermediates/pre-dexed/debug/RootShell-0cfbd84c021f6134f27e6e17fa9c3572c8ad1876.jar" />
+    </item>
+    <item
+        jar="/home/user/AndroidStudioProjects/MoochNet/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/home/user/AndroidStudioProjects/MoochNet/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-cac7be8a515fd0007a6f34988cdf6a08095de110.jar" />
+    </item>
+    <item
+        jar="/home/user/AndroidStudioProjects/MoochNet/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/home/user/AndroidStudioProjects/MoochNet/app/build/intermediates/pre-dexed/debug/classes-a4e1b20c124f026afe5062ed51166d69cb03925e.jar" />
+    </item>
+    <item
+        jar="/home/user/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/home/user/AndroidStudioProjects/MoochNet/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-228d2bf853f4580ab17762e1dac3c89af8f6881e.jar" />
+    </item>
+    <item
+        jar="/home/user/AndroidStudioProjects/MoochNet/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/home/user/AndroidStudioProjects/MoochNet/app/build/intermediates/pre-dexed/debug/classes-08f973be3d693fc2ac752398127841524a817be6.jar" />
+    </item>
+
+</items>
